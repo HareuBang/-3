@@ -16,18 +16,9 @@ setTimeoutPromise(0)
     console.log(data2)
   })
 
-// 1.
-// const wrap = async () => {
-//   await setTimeoutPromise(0)
-//   console.log('a');
-//   console.log('b');
-// }
-
 const wrap = async () => {
   await setTimeoutPromise(0)
-  const data1 = await 'a'
-  console.log(data1);
-  const data2 = await 'b'
-  console.log(data2);
+  console.log('a');
+  console.log('b');
 }
 wrap()
