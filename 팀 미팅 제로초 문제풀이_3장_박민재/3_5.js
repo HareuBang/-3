@@ -21,4 +21,4 @@ const wrap = async () => {
   console.log('a');
   console.log('b');
 }
-wrap();
+wrap()
